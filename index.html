@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BudgetCalculator - Personal Budget Management App</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #667eea;
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        .section {
+            margin: 30px 0;
+        }
+        .section h2 {
+            color: #764ba2;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .feature {
+            padding: 15px;
+            background: #f8f9ff;
+            border-radius: 5px;
+            border-left: 4px solid #667eea;
+        }
+        .links {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid #ddd;
+        }
+        .links a {
+            color: #667eea;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 500;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>BudgetCalculator</h1>
+        <p class="subtitle">Simple, Secure Personal Budget Management for iOS</p>
+
+        <div class="section">
+            <h2>About BudgetCalculator</h2>
+            <p>BudgetCalculator is a personal finance management application for iOS that helps you track expenses, manage budgets, and achieve your savings goals. All your financial data stays private and secure on your device.</p>
+        </div>
+
+        <div class="section">
+            <h2>Key Features</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3>📊 Expense Tracking</h3>
+                    <p>Easily track and categorize your daily expenses</p>
+                </div>
+                <div class="feature">
+                    <h3>💰 Budget Management</h3>
+                    <p>Set and monitor monthly budgets by category</p>
+                </div>
+                <div class="feature">
+                    <h3>🎯 Savings Goals</h3>
+                    <p>Create and track progress toward savings goals</p>
+                </div>
+                <div class="feature">
+                    <h3>📧 Gmail Integration</h3>
+                    <p>Import bank statements directly from your email</p>
+                </div>
+                <div class="feature">
+                    <h3>📈 Monthly Reports</h3>
+                    <p>View detailed spending analysis and trends</p>
+                </div>
+                <div class="feature">
+                    <h3>🔒 Privacy First</h3>
+                    <p>All data stored locally on your device</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Gmail Integration</h2>
+            <p>BudgetCalculator can securely connect to your Gmail account to automatically import bank statement PDFs from Alta Bank. We only access specific bank statement emails and never read your personal correspondence.</p>
+            <p><strong>What we access:</strong> Only emails from Alta Bank (izvod@altabanka.rs) containing monthly statements.</p>
+            <p><strong>What we don't access:</strong> Any other emails, contacts, or personal information.</p>
+        </div>
+
+        <div class="section">
+            <h2>Privacy & Security</h2>
+            <p>Your financial data is private and secure:</p>
+            <ul>
+                <li>All transaction data is stored locally on your iOS device</li>
+                <li>We do not collect, store, or transmit your data to external servers</li>
+                <li>Gmail access is read-only and limited to bank statements only</li>
+                <li>You can revoke access at any time through your Google Account settings</li>
+            </ul>
+        </div>
+
+        <div class="links">
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="mailto:dreamapps.agency@gmail.com">Contact Support</a>
+        </div>
+    </div>
+</body>
+</html>
